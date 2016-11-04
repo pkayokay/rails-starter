@@ -8,7 +8,7 @@
 
 ## Set up app and test server
 * `rails new [appname] --database=postgresql`
-* Edit database.yml for postgresql use
+* Edit database.yml for postgresql use (check file on directory)
 * `rake db:create:all`
 * `rails server`
 
@@ -23,14 +23,14 @@
 ## Prep for Heroku
 
 * `gem 'rails_12factor', group: :production`
-* `config.assets.compile = true`
+* `config.assets.compile = true` (app/config/environments/production.rb)
 * `heroku create appname`
 * `git push heroku master` (after pushing to git master)
 
 ## Styling
 
 * [Bootstrap](https://github.com/twbs/bootstrap-sass#a-ruby-on-rails)
-* `gem 'sprockets'`
+* Add `gem 'sprockets'`
 
 ---
 
