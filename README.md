@@ -49,7 +49,7 @@
 
 ## Things to remember
 * Routes.rb
-* "`get 'about' , to: 'quotes#about'`" to add an controller/about _static_ page 
+* "`get 'pagename' , to: 'controllername#pagename'`" to add an controllername/pagename _static_ page 
 * Associations
 * Validations
 * Migrations (Pushing to production before migrating)
