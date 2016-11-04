@@ -1,13 +1,10 @@
 # Rails Starter Guide with Vagrant
-
+#### First install https://github.com/FirehoseProject/firehose-vagrant
 1. Set up app
 2. Set up pipeline
 3. Prep for Heroku
 4. Bootstrap Gem
 
-### https://github.com/FirehoseProject/firehose-vagrant
-
-# Ruby on Rails Step by Step (summarized)
 
 ## Set up app and test server
 * `rails new [appname] --database=postgresql`
