@@ -22,7 +22,7 @@
 
 ## Prep for Heroku
 
-* `gem 'rails_12factor', group: :production`
+* `gem 'rails_12factor', group: :production` / NOT needed with RAILS 5
 * `config.assets.compile = true` (app/config/environments/production.rb)
 * `heroku create appname`
 * `git push heroku master` (after pushing to git master)
@@ -38,8 +38,8 @@
 ## Commands to know
 * `rails generate controller [controllername]`
 *  `rails generate model [modelname]` (edit migration file for data columns)
-* `rake db:migrate`
-* `rake db:rollback`
+* `rails db:migrate`
+* `rails db:rollback`
 * `rails console`
 * For heroku, simple add "`heroku run ...`"
 * `bundle install`
